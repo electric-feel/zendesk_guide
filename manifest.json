@@ -1,7 +1,7 @@
 {
   "name": "Electricfeel",
   "author": "Electricfeel",
-  "version": "2.2.15",
+  "version": "2.2.17",
   "api_version": 2,
   "default_locale": "en-us",
   "settings": [
@@ -221,12 +221,6 @@
           "type": "file",
           "description": "homepage_background_image_description",
           "label": "homepage_background_image_label"
-        },
-        {
-          "identifier": "homepage_background_image_mobile",
-          "type": "file",
-          "description": "homepage_background_image_mobile_description",
-          "label": "homepage_background_image_mobile_label"
         },
         {
           "identifier": "community_background_image",
