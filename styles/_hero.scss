@@ -2,7 +2,8 @@
 .hero {
   background-image: url($homepage_background_image);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: repeat-x;
   height: 300px;
   padding: 0 20px;
   text-align: center;
@@ -15,9 +16,9 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1024px) {
   .hero {
-    background-image: url($homepage_background_image_mobile);
+    background-image: url($knowledge_base_mobile);
     background-size: auto;
   }
 }
