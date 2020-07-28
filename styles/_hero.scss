@@ -14,3 +14,10 @@
     margin: 0 auto;
   }
 }
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: url($homepage_background_image_mobile);
+    background-size: auto;
+  }
+}

@@ -933,10 +933,6 @@ ul {
   color: #555;
 }
 
-.search-full input[type="search"] {
-  border: 1px solid #fff;
-}
-
 .search-icon {
   position: relative;
   top: 50%;
@@ -975,6 +971,13 @@ ul {
   transform: translateY(-50%);
   max-width: 610px;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: url($homepage_background_image_mobile);
+    background-size: auto;
+  }
 }
 
 .page-header {
